@@ -8,6 +8,17 @@ class User < ActiveRecord::Base
   validates_presence_of :password, :on => :create
   validates_presence_of :email
   validates_uniqueness_of :email
+
+  has_many :played_relationships, foreign_key: "user_id"
+  has_many :games, through: :played_relationships
+
+  def played?(game)
+    self.played_relationships.find_by_game_id(game.id)
+  end
+
+  def played!(game)
+    self.played_relationships.create!(game_id: game.id)
+  end
   
   def self.authenticate(email, password)
     user = find_by_email(email)

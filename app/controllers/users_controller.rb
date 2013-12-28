@@ -12,6 +12,11 @@ class UsersController < ApplicationController
       render "new"
     end
   end
+
+  def home
+    @user = current_user
+    #render @user.played_relationships.inspect
+  end
   
   private
 

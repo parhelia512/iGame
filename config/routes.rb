@@ -6,9 +6,10 @@ IGame::Application.routes.draw do
   
   get "sessions/new"
   get "sign_up" => "users#new", :as => "sign_up"
-  root :to => "users#new"
+  root :to => "users#home"
   resources :sessions
   resources :users
+  resources :played_relationships, only: [:create, :destroy]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

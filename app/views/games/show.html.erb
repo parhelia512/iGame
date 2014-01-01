@@ -14,14 +14,14 @@
 
 <%= form_for(current_user.played_relationships.build(game_id: @game.id) ) do |f| %>
     <div><%= f.hidden_field :game_id %></div>
-    <%= f.submit "Played!" %>
+    <%= f.submit "Played!", class: "btn btn-primary" %>
 <% end %>
 <% end %>
 
 <% if current_user.played_relationships.find_by_game_id(@game.id) %>
 <%= form_for [current_user, current_user.played_relationships.find_by_game_id(@game.id)], html:{method: :delete} do |f| %>
     <div><%= f.hidden_field :game_id %></div>
-    <%= f.submit "UnPlayed!" %>
+    <%= f.submit "UnPlayed!", class: "btn btn-primary" %>
 <% end %>
 <% end %>
 

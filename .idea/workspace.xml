@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/home.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/played_relationships_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/games_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/games_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/played_relationship.rb" afterPath="$PROJECT_DIR$/app/models/played_relationship.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/played_relationships_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/played_relationships_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iGame.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388221384395" ignored="false" />
+    <file path="/Dummy.txt" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388532358284" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app_rails_3_rails_tutorial/db/migrate/20120308034454_add_password_digest_to_users.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387444346386" ignored="false" />
     <file path="/20131217034401_create_played_relationships.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387549820464" ignored="false" />
     <file path="/sessions_helper.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387549845946" ignored="false" />
@@ -29,15 +22,20 @@
     <file path="/user.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388057691558" ignored="false" />
     <file path="/game.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387595915448" ignored="false" />
     <file path="$PROJECT_DIR$/../wechat/app/views/articles/_form.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387596185255" ignored="false" />
-    <file path="/*.regexp" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387596293324" ignored="false" />
+    <file path="/*.regexp" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388533786847" ignored="false" />
     <file path="/likes_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387600563104" ignored="false" />
     <file path="$PROJECT_DIR$/../wechat/app/controllers/likes_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387600571423" ignored="false" />
-    <file path="/show.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388076259380" ignored="false" />
-    <file path="/played_relationships_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388057395356" ignored="false" />
-    <file path="/routes.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387726427853" ignored="false" />
-    <file path="$PROJECT_DIR$/../wechat/app/views/likes/_like.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387765565880" ignored="false" />
+    <file path="/show.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388535088344" ignored="false" />
+    <file path="/played_relationships_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388535045945" ignored="false" />
+    <file path="/routes.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388534025587" ignored="false" />
+    <file path="$PROJECT_DIR$/../wechat/app/views/likes/_like.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388242583240" ignored="false" />
     <file path="/home.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388075807546" ignored="false" />
     <file path="/games_helper.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388075794014" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app_rails_3_rails_tutorial/app/views/shared/_error_messages.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388242812881" ignored="false" />
+    <file path="/_error_messages.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388242812186" ignored="false" />
+    <file path="$PROJECT_DIR$/../wechat/app/views/likes/_unlike.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388532404351" ignored="false" />
+    <file path="$PROJECT_DIR$/../wechat/app/views/articles/_article.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388533731558" ignored="false" />
+    <file path="/_article.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388533731055" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,91 +55,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="collection_association.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/activerecord-4.0.0/lib/active_record/associations/collection_association.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="221" column="16" selection-start="6758" selection-end="7218" vertical-scroll-proportion="0.0">
+            <state line="23" column="9" selection-start="657" selection-end="657" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rspec.tt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.5/lib/bundler/templates/newgem/rspec.tt">
+      <file leaf-file-name="played_relationships_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/played_relationships_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="array.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/array.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="7" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crypt.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Preferences/RubyMine50/rubystubs/ruby19/bcrypt-ruby/3.1.1/crypt.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="b_crypt.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Preferences/RubyMine50/rubystubs/ruby19/bcrypt-ruby/3.1.1/b_crypt.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".keep" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/.keep">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/railties-4.0.0/lib/rails/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="24" selection-start="2296" selection-end="3062" vertical-scroll-proportion="0.50341684">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="played_relationship.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/played_relationship.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="24" selection-start="6" selection-end="24" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/home.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="90" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+            <state line="13" column="25" selection-start="410" selection-end="410" vertical-scroll-proportion="0.47330096">
               <folding />
             </state>
           </provider>
@@ -167,23 +93,23 @@
       <list>
         <option value="$PROJECT_DIR$/db/migrate/20131217034401_create_played_relationships.rb" />
         <option value="$PROJECT_DIR$/app/models/game.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/played_relationships_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/games_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/played_relationship.rb" />
         <option value="$PROJECT_DIR$/app/views/users/home.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/played_relationships_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="171" />
-    <option name="width" value="1064" />
-    <option name="height" value="600" />
+    <option name="x" value="-16" />
+    <option name="y" value="291" />
+    <option name="width" value="1276" />
+    <option name="height" value="537" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,7 +137,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -436,17 +361,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: iGame">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -575,6 +501,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -608,13 +541,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -753,14 +679,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="171" width="1064" height="600" extended-state="0" />
+    <frame x="-16" y="291" width="1276" height="537" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25442043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27603143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23252033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -836,42 +762,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="338" selection-end="338" vertical-scroll-proportion="0.31578946" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="45" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-0.10526316" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/played_relationships_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="203" selection-end="210" vertical-scroll-proportion="0.25263157" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="257" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/played_relationship.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="24" selection-start="6" selection-end="24" vertical-scroll-proportion="0.0">
@@ -879,35 +769,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="90" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/activerecord-4.0.0/lib/active_record/associations/collection_association.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="16" selection-start="6758" selection-end="7218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.5/lib/bundler/templates/newgem/rspec.tt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/show.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/array.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/activerecord-4.0.0/lib/active_record/transactions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
+        <state line="263" column="8" selection-start="11704" selection-end="11704" vertical-scroll-proportion="0.33257404">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Preferences/RubyMine50/rubystubs/ruby19/bcrypt-ruby/3.1.1/crypt.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/activerecord-4.0.0/lib/active_record/associations/collection_association.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="244" column="10" selection-start="8231" selection-end="8231" vertical-scroll-proportion="0.3318584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/railties-4.0.0/lib/rails/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="35" selection-start="2788" selection-end="2788" vertical-scroll-proportion="0.039893616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="34" selection-start="267" selection-end="267" vertical-scroll-proportion="0.3276699">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/.keep">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -921,23 +823,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/.keep">
+    <entry file="file://$USER_HOME$/Library/Preferences/RubyMine50/rubystubs/ruby19/bcrypt-ruby/3.1.1/crypt.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+        <state line="13" column="19" selection-start="314" selection-end="350" vertical-scroll-proportion="0.47330096">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/railties-4.0.0/lib/rails/application.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="24" selection-start="2296" selection-end="3062" vertical-scroll-proportion="0.50341684">
+        <state line="24" column="2" selection-start="697" selection-end="697" vertical-scroll-proportion="0.55097085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="9" selection-start="657" selection-end="657" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/played_relationships_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="410" selection-end="410" vertical-scroll-proportion="0.47330096">
           <folding />
         </state>
       </provider>

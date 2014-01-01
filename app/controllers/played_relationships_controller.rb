@@ -1,14 +1,17 @@
 class PlayedRelationshipsController < ApplicationController
   def create
+
     @game = Game.find(relationship_params[:game_id])
     current_user.played!(@game)
-    respond_to
-    respond_with
+    redirect_to root_path
   end
 
   def destroy
-    @game = PlayedRelationship.find(params[:id]).game
+    #render params.inspect
+    #@game = Game.find(PlayedRelationship.find(params[:id]).game
+    @game = Game.find(relationship_params[:game_id])
     current_user.unplayed!(@game)
+    redirect_to root_path
   end
 
   def relationship_params

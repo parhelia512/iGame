@@ -1,6 +1,6 @@
 IGame::Application.routes.draw do
   resources :games do
-
+    resources :game_comments
   end
 
   get "log_out" => "sessions#destroy", :as => "log_out"

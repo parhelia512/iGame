@@ -1,4 +1,7 @@
 玩过的游戏
+<% if current_user %>
 <% @user.played_relationships.each do |played_relationship| %>
     <li><%= played_relationship.game_id %></li><%= link_to game_title(played_relationship.game_id), game_path(played_relationship.game_id) %>
+<% end %>
+
 <% end %>

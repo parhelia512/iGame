@@ -24,6 +24,7 @@ class GamesController < ApplicationController
   # POST /games
   # POST /games.json
   def create
+    #render params.inspect
     @game = Game.new(game_params)
 
     respond_to do |format|
@@ -69,6 +70,6 @@ class GamesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def game_params
-      params.require(:game).permit(:name, :description)
+      params.require(:game).permit(:name, :description, :game_cover)
     end
 end

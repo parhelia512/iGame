@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/games/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game.rb" afterPath="$PROJECT_DIR$/app/models/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iGame.iml" afterPath="$PROJECT_DIR$/.idea/iGame.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/new.html.erb" afterPath="$PROJECT_DIR$/app/views/games/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,7 +23,7 @@
     <file path="/*.regexp" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388796766824" ignored="false" />
     <file path="/likes_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387600563104" ignored="false" />
     <file path="$PROJECT_DIR$/../wechat/app/controllers/likes_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387600571423" ignored="false" />
-    <file path="/show.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388910285800" ignored="false" />
+    <file path="/show.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388911411518" ignored="false" />
     <file path="/played_relationships_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388535045945" ignored="false" />
     <file path="/routes.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388847404693" ignored="false" />
     <file path="$PROJECT_DIR$/../wechat/app/views/likes/_like.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388242583240" ignored="false" />
@@ -83,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/games/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.09355509">
+            <state line="7" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -119,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140105081632_add_attachment_game_cover_to_games.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140105081632_add_attachment_game_cover_to_games.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+            <state line="12" column="43" selection-start="172" selection-end="172" vertical-scroll-proportion="0.3846154">
               <folding />
             </state>
           </provider>
@@ -192,12 +183,12 @@
         <option value="$PROJECT_DIR$/app/views/games/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/game_comments_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/games/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/games/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/game.rb" />
         <option value="$PROJECT_DIR$/app/views/games/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
       </list>
     </option>
   </component>
@@ -1026,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="174" selection-end="174" vertical-scroll-proportion="0.3846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="14" selection-start="283" selection-end="283" vertical-scroll-proportion="-9.75">
@@ -1091,7 +1075,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/games/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.09355509">
+        <state line="7" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="43" selection-start="172" selection-end="172" vertical-scroll-proportion="0.3846154">
           <folding />
         </state>
       </provider>

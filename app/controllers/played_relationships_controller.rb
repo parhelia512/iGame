@@ -3,7 +3,7 @@ class PlayedRelationshipsController < ApplicationController
 
     @game = Game.find(relationship_params[:game_id])
     current_user.played!(@game)
-    redirect_to root_path
+    redirect_to game_path(@game)
   end
 
   def destroy
@@ -11,7 +11,7 @@ class PlayedRelationshipsController < ApplicationController
     #@game = Game.find(PlayedRelationship.find(params[:id]).game
     @game = Game.find(relationship_params[:game_id])
     current_user.unplayed!(@game)
-    redirect_to root_path
+    redirect_to game_path(@game)
   end
 
   def relationship_params

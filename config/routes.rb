@@ -14,6 +14,12 @@ IGame::Application.routes.draw do
     resources :played_relationships
   end
   resources :played_relationships, only: [:create, :destroy]
+
+
+  get "weibo" => "weibo#connect", :as => "weibo"
+  get "post_weibo" => "weibo#post", :as => "post_weibo"
+
+  get "callback" => "weibo#callback"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

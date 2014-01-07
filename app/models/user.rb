@@ -17,7 +17,12 @@ class User < ActiveRecord::Base
   end
 
   def played!(game)
-    self.played_relationships.create!(game_id: game.id)
+    #if session[:access_token]
+    #  render session[:authenticity_token].inspect
+    #end
+
+
+      self.played_relationships.create!(game_id: game.id)
   end
 
   def unplayed!(game)

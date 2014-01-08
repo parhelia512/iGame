@@ -32,18 +32,19 @@ class WeiboController < ApplicationController
   end
 
   def post
-    client = WeiboOAuth2::Client.new
-    client.get_token_from_hash({:access_token => session[:access_token], :expires_at => session[:expires_at]})
-    statuses = client.statuses
-
-    #unless params[:file] && (pic = params[:file].delete(:tempfile))
-      statuses.update("haha")
-    #else
-      #status = params[:status] || '图片'
-      #statuses.upload(status, pic, params[:file])
-    #end
-
-    redirect '/'
+    render params.inspect
+    #client = WeiboOAuth2::Client.new
+    #client.get_token_from_hash({:access_token => session[:access_token], :expires_at => session[:expires_at]})
+    #statuses = client.statuses
+    #
+    ##unless params[:file] && (pic = params[:file].delete(:tempfile))
+    #  statuses.update("haha")
+    ##else
+    #  #status = params[:status] || '图片'
+    #  #statuses.upload(status, pic, params[:file])
+    ##end
+    #
+    #redirect '/'
 
   end
 end

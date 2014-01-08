@@ -17,7 +17,7 @@ IGame::Application.routes.draw do
 
 
   get "weibo" => "weibo#connect", :as => "weibo"
-  get "post_weibo" => "weibo#post", :as => "post_weibo"
+  patch "post_weibo" => "weibo#post", :as => "post_weibo"
 
   get "callback" => "weibo#callback"
   # The priority is based upon order of creation: first created -> highest priority.

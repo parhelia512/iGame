@@ -13,23 +13,54 @@
   <%= image_tag @game.game_cover.url(:medium) %>
 </p>
 
+<%= form_for @game, {:url => post_weibo_path } do |f| %>
+<!--<%= button_to "Share", post_weibo_path %>-->
+    <%= f.hidden_field :name %>
+    <%= f.submit "OK" %>
+<% end %>
+
+
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Edit
+</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <%= render 'form' %>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<br/>
+<br/>
+
 <% if !current_user.played_relationships.find_by_game_id(@game.id) %>
 
-<%= form_for(current_user.played_relationships.build(game_id: @game.id) ) do |f| %>
-    <div><%= f.hidden_field :game_id %></div>
-    <%= f.submit "Played!", class: "btn btn-primary" %>
+    <%= form_for(current_user.played_relationships.build(game_id: @game.id) ) do |f| %>
+        <div><%= f.hidden_field :game_id %></div>
+        <%= f.submit "Played!", class: "btn btn-primary" %>
+    <% end %>
 <% end %>
-<% end %>
+
+
 
 <% if current_user.played_relationships.find_by_game_id(@game.id) %>
-<%= form_for [current_user, current_user.played_relationships.find_by_game_id(@game.id)], html:{method: :delete} do |f| %>
-    <div><%= f.hidden_field :game_id %></div>
-	<p>
-    <%= f.submit "UnPlayed!", class: "btn btn-primary" %>
+    <%= form_for [current_user, current_user.played_relationships.find_by_game_id(@game.id)], html:{method: :delete} do |f| %>
+        <div><%= f.hidden_field :game_id %></div>
+        <p>
+          <%= f.submit "UnPlayed!", class: "btn btn-primary" %>
+    <% end %>
 <% end %>
-<% end %>
-
-
 
 
 

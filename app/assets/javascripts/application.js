@@ -8,7 +8,7 @@
 // compiled file.
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
-// about supported directives.
+// about supported directives. rb
 //
 //= require jquery
 //= require jquery_ujs

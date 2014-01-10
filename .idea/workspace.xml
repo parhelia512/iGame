@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iGame.iml" afterPath="$PROJECT_DIR$/.idea/iGame.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/new.html.erb" afterPath="$PROJECT_DIR$/app/views/games/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/weibo_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/weibo_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iGame.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389162244789" ignored="false" />
+    <file path="/Dummy.txt" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389365590022" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app_rails_3_rails_tutorial/db/migrate/20120308034454_add_password_digest_to_users.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387444346386" ignored="false" />
     <file path="/20131217034401_create_played_relationships.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387549820464" ignored="false" />
     <file path="/sessions_helper.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387549845946" ignored="false" />
@@ -28,7 +24,7 @@
     <file path="/*.regexp" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389194244419" ignored="false" />
     <file path="/likes_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387600563104" ignored="false" />
     <file path="$PROJECT_DIR$/../wechat/app/controllers/likes_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1387600571423" ignored="false" />
-    <file path="/show.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389194785774" ignored="false" />
+    <file path="/show.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389225611989" ignored="false" />
     <file path="/played_relationships_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389082510422" ignored="false" />
     <file path="/routes.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389195168633" ignored="false" />
     <file path="$PROJECT_DIR$/../wechat/app/views/likes/_like.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1388242583240" ignored="false" />
@@ -54,7 +50,7 @@
     <file path="$USER_HOME$/temp/kiss_weibo-master/example.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389081179678" ignored="false" />
     <file path="/example.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389081175658" ignored="false" />
     <file path="/Gemfile" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389081459978" ignored="false" />
-    <file path="/weibo_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389195197154" ignored="false" />
+    <file path="/weibo_controller.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389227501503" ignored="false" />
     <file path="/new.html.erb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389140975074" ignored="false" />
     <file path="/schema.rb" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389194753770" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,25 +75,25 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="6" selection-start="554" selection-end="554" vertical-scroll-proportion="-5.1538463">
+            <state line="20" column="6" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weibo_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="weibo_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/weibo_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="25" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.1775457">
+            <state line="50" column="32" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="194" selection-end="194" vertical-scroll-proportion="-9.375">
+            <state line="101" column="9" selection-start="2359" selection-end="2365" vertical-scroll-proportion="0.3548387">
               <folding />
             </state>
           </provider>
@@ -106,7 +102,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/games/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="-0.0">
+            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +111,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="41" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-13.708333">
+            <state line="24" column="41" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +120,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/games/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="87" selection-end="87" vertical-scroll-proportion="-4.375">
+            <state line="7" column="17" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,7 +147,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="84" selection-start="654" selection-end="654" vertical-scroll-proportion="-16.875">
+            <state line="28" column="84" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,10 +183,10 @@
         <option value="$PROJECT_DIR$/app/views/games/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/games/new.html.erb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/weibo_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/games/show.html.erb" />
       </list>
     </option>
   </component>
@@ -633,12 +629,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: iGame">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -767,6 +763,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -800,13 +803,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -950,10 +946,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25043178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25442043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2609756" sideWeight="0.7495682" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26585367" sideWeight="0.7495682" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24471545" sideWeight="0.40069085" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -962,6 +957,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25043178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1028,32 +1024,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="53" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_view/helpers/rendering_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="936" selection-end="943" vertical-scroll-proportion="0.33203885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/games/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="35" selection-end="35" vertical-scroll-proportion="0.05952381">
-          <folding />
-        </state>
+        <state line="2" column="12" selection-start="35" selection-end="35" vertical-scroll-proportion="0.05952381" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/development.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3252" column="23" selection-start="190345" selection-end="190345" vertical-scroll-proportion="0.33243242">
-          <folding />
-        </state>
+        <state line="3252" column="23" selection-start="190345" selection-end="190345" vertical-scroll-proportion="0.33243242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
@@ -1077,44 +1055,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="87" selection-end="87" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p392@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_view/helpers/form_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="349" column="41" selection-start="15727" selection-end="15731" vertical-scroll-proportion="0.9127907">
-          <folding />
-        </state>
+        <state line="349" column="41" selection-start="15727" selection-end="15731" vertical-scroll-proportion="0.9127907" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/played_relationships_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-13.708333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="84" selection-start="654" selection-end="654" vertical-scroll-proportion="-16.875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="554" selection-end="554" vertical-scroll-proportion="-5.1538463">
+        <state line="20" column="6" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1126,16 +1081,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="194" selection-end="194" vertical-scroll-proportion="-9.375">
+        <state line="24" column="41" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="53" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/played_relationships_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="84" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/weibo_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="25" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.1775457">
+        <state line="50" column="32" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="9" selection-start="2359" selection-end="2365" vertical-scroll-proportion="0.3548387">
           <folding />
         </state>
       </provider>

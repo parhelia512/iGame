@@ -26,7 +26,7 @@
         <%
            WeiboOAuth2::Config.api_key = '2995749339';
            WeiboOAuth2::Config.api_secret = '8935c930b08d4f96fabcce32474a250a';
-           WeiboOAuth2::Config.redirect_uri = 'http://127.0.0.1:3000/callback'
+           WeiboOAuth2::Config.redirect_uri = 'http://vast-coast-4942.herokuapp.com/callback'
            client = WeiboOAuth2::Client.new
            if session[:access_token] && !client.authorized?
              token = client.get_token_from_hash({:access_token => session[:access_token], :expires_at => session[:expires_at]})

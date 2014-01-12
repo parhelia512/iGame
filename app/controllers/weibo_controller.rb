@@ -1,8 +1,6 @@
 class WeiboController < ApplicationController
   def connect
-    WeiboOAuth2::Config.api_key = '2995749339';
-    WeiboOAuth2::Config.api_secret = '8935c930b08d4f96fabcce32474a250a';
-    WeiboOAuth2::Config.redirect_uri = 'http://127.0.0.1:3000/callback'
+
 
     client = WeiboOAuth2::Client.new
     redirect_to client.authorize_url
@@ -33,29 +31,34 @@ class WeiboController < ApplicationController
 
   def post
     ##render params[:game].inspect
-    #game = Game.find_by_name(params[:game][:name])
-    #status = game.name
-    ##pic = File.open(game.game_cover.url)
+    game = Game.find_by_name(params[:game][:name])
+
+    render :text => game.game_cover.url
+
+    status = game.name
+    pic = File.open(game.game_cover.url)
     #
     #client = WeiboOAuth2::Client.new
     ##client.get_token_from_hash({:access_token => session[:access_token], :expires_at => session[:expires_at]})
     ##statuses = client.statuses
     #
-    #statuses.upload(status, game.game_cover.url)
+    statuses.upload(status, game.game_cover.url)
 
 
     client = WeiboOAuth2::Client.new
     client.get_token_from_hash({:access_token => session[:access_token], :expires_at => session[:expires_at]})
     statuses = client.statuses
 
+    #statuses.update(status)
+
     #unless params[:file] && (pic = params[:file].delete(:tempfile))
-      statuses.update("haha")
+    #  statuses.update("haha")
     #else
       #status = params[:status] || '图片'
       #statuses.upload(status, pic, params[:file])
     #end
 
-    redirect '/'
+    #redirect_to '/'
 
   end
 end

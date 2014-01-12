@@ -6,7 +6,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class=" navbar-inverse" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -23,8 +23,22 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="/">Home</a></li>
         <li><%= link_to "Games", games_path %></li>
-        <li><%= link_to "Post Weibo", post_weibo_path %></li>
-        <li><%= link_to "Weibo", weibo_path %></li>
+        <%
+           WeiboOAuth2::Config.api_key = '2995749339';
+           WeiboOAuth2::Config.api_secret = '8935c930b08d4f96fabcce32474a250a';
+           WeiboOAuth2::Config.redirect_uri = 'http://127.0.0.1:3000/callback'
+           client = WeiboOAuth2::Client.new
+           if session[:access_token] && !client.authorized?
+             token = client.get_token_from_hash({:access_token => session[:access_token], :expires_at => session[:expires_at]})
+             if token.validated?
+        %>
+            <li><%= link_to "Weibo已连接", weibo_path %></li>
+
+
+                <% end %>
+        <% else %>
+            <li><%= link_to "连接到Weibo", weibo_path %></li>
+            <% end %>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -38,12 +52,12 @@
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
+      <!--<form class="navbar-form navbar-left" role="search">-->
+        <!--<div class="form-group">-->
+          <!--<input type="text" class="form-control" placeholder="Search">-->
+        <!--</div>-->
+        <!--<button type="submit" class="btn btn-default">Submit</button>-->
+      <!--</form>-->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
         <li class="dropdown">

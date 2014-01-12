@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-    </list>
+    <list default="true" id="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" name="Default" comment="" />
     <ignored path="iGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="4dfb40c7-8126-4e43-840e-4c1a09dba7e5" time="1389450883047" ignored="false" />
@@ -111,7 +109,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="92" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.36585367">
+            <state line="24" column="84" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.7723577">
               <folding />
             </state>
           </provider>
@@ -1135,7 +1133,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="92" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.36585367">
+        <state line="24" column="84" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.7723577">
           <folding />
         </state>
       </provider>

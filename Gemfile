@@ -10,6 +10,8 @@ group :development do
 end
 group :production do
   gem 'pg'
+  gem 'rmagick'
+
 end
 
 # Use SCSS for stylesheets

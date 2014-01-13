@@ -35,4 +35,7 @@ rerun.txt
 pickle-email-*.html
 .project
 config/initializers/secret_token.rb
+.idea/workspace.xml
+app/views/games/show.html.erb
+
 >>>>>>> 4ca6e7768dfdeadc3b6cdd36ffbe229fd97dbacf

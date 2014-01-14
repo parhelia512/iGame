@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140105081632) do
+ActiveRecord::Schema.define(version: 20140114085003) do
 
   create_table "game_comments", force: true do |t|
     t.string   "commenter"
@@ -32,6 +32,9 @@ ActiveRecord::Schema.define(version: 20140105081632) do
     t.string   "game_cover_content_type"
     t.integer  "game_cover_file_size"
     t.datetime "game_cover_updated_at"
+    t.integer  "average_rating"
+    t.integer  "average_rating_number"
+    t.string   "game_coverpicture"
   end
 
   create_table "played_relationships", force: true do |t|
@@ -39,6 +42,7 @@ ActiveRecord::Schema.define(version: 20140105081632) do
     t.integer  "game_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "rating"
   end
 
   create_table "users", force: true do |t|

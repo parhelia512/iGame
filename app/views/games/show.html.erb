@@ -10,7 +10,8 @@
 </p>
 
 <p>
-  <%= image_tag @game.game_cover.url(:medium) %>
+  <%= image_tag(@game.game_coverpicture_url, :width => 600) if @game.game_coverpicture.present? %>
+  <%= @game.game_coverpicture %>
 </p>
 
 <%= form_for @game, {:url => post_weibo_path } do |f| %>

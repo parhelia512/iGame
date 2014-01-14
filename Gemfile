@@ -53,7 +53,7 @@ end
 
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
-gem "paperclip", "~> 3.0"
+#gem "paperclip", "~> 3.0"
 gem 'carrierwave'
 
 gem 'weibo_2'

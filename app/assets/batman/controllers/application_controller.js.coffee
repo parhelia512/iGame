@@ -1,0 +1,1 @@
+class IGame.ApplicationController extends Batman.Controller

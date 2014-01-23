@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>I Game</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "i_game" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div data-yield="main"></div>
+
+<script type="text/javascript">
+  IGame.run();
+</script>
+
+</body>
+</html>

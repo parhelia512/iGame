@@ -2,7 +2,7 @@ class IGame.MainController extends IGame.ApplicationController
   routingKey: 'main'
 
   index: (params) ->
-    @set 'firstName', 'Bruce'
+    @set 'firstName', 'Nango'
     @set 'lastName', 'Wayne'
 
   @accessor 'fullName', ->

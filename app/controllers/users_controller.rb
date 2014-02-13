@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-    
+
   def new
     @user = User.new
   end
@@ -17,12 +17,19 @@ class UsersController < ApplicationController
     @user = current_user
     #render @user.played_relationships.inspect
   end
+
+  def update
+    current_user.nickname = params[:user][:nickname]
+    current_user.save
+  end
   
   private
 
   def user_params
-    params.require(:user).permit(:email, :password, :password_confirmation)
+    params.require(:user).permit(:email, :password, :password_confirmation, :nickname)
   end
+
+
   
   # attr_accessible :email, :password, :password_confirmation
 

@@ -1,5 +1,6 @@
 IGame::Application.routes.draw do
 
+  get "pages/dashboard"
   # get "(*redirect_path)", to: "batman#index", constraints: lambda { |request| request.format == "text/html" }
 
   resources :games do

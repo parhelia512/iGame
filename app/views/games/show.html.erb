@@ -89,8 +89,8 @@
 <h2>Add a comment:</h2>
 <%= form_for ([@game, @game.game_comments.build]) do |f| %>
     <p>
-      <%= f.label :commenter %>
-      <%= f.text_field :commenter %>
+      <%= f.label :commenter %>:
+      <%= f.label current_user.nickname%>
     </p>
 
       <p>
